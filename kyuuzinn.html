@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社 会社名</title>
+    <link rel="stylesheet" href="kaka.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+</head>
+<body>
+
+    <!-- ヘッダー：PCではここにリンクを表示 -->
+    <header>
+        <a href="index.html" class="logo">会社名</a>
+        
+        <!-- PC向け：上部のナビゲーション -->
+        <nav class="header-nav">
+            <ul>
+                <li><a href="index.html">トップ</a></li>
+                <li><a href="jods.html">会社情報</a></li>
+                <li><a href="kyuuzinn.html">お仕事をお探しの方へ</a></li>
+                <li><a href="saiyou.html">企業の採用担当者様へ</a></li>
+                <li><a href="otoiawase.html" class="nav-btn">お問い合せ</a></li>
+            </ul>
+        </nav>
+
+        <!-- スマホ向け：メニューボタン -->
+        <div class="menu-btn" id="open-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- サイドメニュー：上部にリンクを配置 -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <span>MENU</span>
+            <div class="close-btn" id="close-btn">&times;</div>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i>トップ</a></li>
+                <li><a href="jods.html"><i class="fas fa-comment-dots"></i>会社情報</a></li>
+                <li><a href="kyuuzinn.html"><i class="fas fa-building"></i>お仕事を探しの方へ</a></li>
+                <li><a href="saiyou.html"><i class="fas fa-saiyou"></i>企業の採用担当者様へ</a></li>
+                <li><a href="otoaiawase.html"><i class="fas fa-otoiawase"></i>お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <div class="ss-hero-banner">
+        <h2 class="ss-hero-title">お仕事をお探しの方へ</h2>
+        <p class="ss-hero-text">あなたのライフスタイルに合わせた働き方をサポートします。</p>
+    </div>
+
+    <main class="ss-container">
+        <!-- 派遣の流れセクション -->
+        <section class="ss-info-section">
+            <h3 class="ss-section-heading">派遣就業までの4ステップ</h3>
+            <div class="ss-flow-wrapper">
+                <div class="ss-flow-card">
+                    <span class="ss-step-badge">Step 1</span>
+                    <h4 class="ss-card-title">面談登録</h4>
+                    <p class="ss-card-desc">専用フォームから登録後、希望条件をじっくり伺います。</p>
+                </div>
+                <div class="ss-flow-card">
+                    <span class="ss-step-badge">Step 2</span>
+                    <h4 class="ss-card-title">お仕事紹介</h4>
+                    <p class="ss-card-desc">非公開案件を含む豊富な求人から最適なお仕事をご提案。</p>
+                </div>
+                <div class="ss-flow-card">
+                    <span class="ss-step-badge">Step 3</span>
+                    <h4 class="ss-card-title">職場見学</h4>
+                    <p class="ss-card-desc">職場の雰囲気を確認し、納得してから就業を決められます。</p>
+                </div>
+                <div class="ss-flow-card">
+                    <span class="ss-step-badge">Step 4</span>
+                    <h4 class="ss-card-title">お仕事開始</h4>
+                    <p class="ss-card-desc">雇用契約を結び就業開始。専任担当がずっとフォローします。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 求人情報セクション -->
+        <section class="ss-info-section">
+            <h3 class="ss-section-heading">PICK UP求人</h3>
+            <div class="ss-job-container">
+                <div class="ss-job-entry">
+                    <div class="ss-job-tags">
+                        <span class="ss-tag-office">事務</span>
+                        <span class="ss-tag-remote">リモート可</span>
+                    </div>
+                    <h4 class="ss-job-title">仕事内容</h4>
+                    <p class="ss-job-detail">時給 〇〇円〜 | 勤務地：県 | 土日祝休み</p>
+                    <!--リンクを貼る-->
+                    <a href="#" class="ss-action-link">詳しく見る</a>
+                </div>
+
+                <div class="ss-job-entry">
+                    <div class="ss-job-tags">
+                        <span class="ss-tag-lightwork">軽作業</span>
+                    </div>
+                    <h4 class="ss-job-title">仕事内容</h4>
+                    <p class="ss-job-detail">時給 〇〇円〜 | 勤務地：県 | 週3日〜OK</p>
+                    <!--リンクを貼る-->
+                    <a href="#" class="ss-action-link">詳しく見る</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="ss-site-footer">
+        <p class="ss-copyright">&copy; 2024</p>
+    </footer>
+
+</body>
+</html>
